@@ -1,0 +1,64 @@
+/* Header */
+.nav {
+  position: relative;
+  margin-top: -7px;
+  bottom: 0;
+  height: 100vh; /* Use full height of the viewport */
+  left: 0; /* Align to the left */
+  background: rgba(255, 255, 255, 0.9); /* Slightly more transparent */
+  width: 280px;
+  overflow: hidden;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center; /* Center logo and text vertically */
+  margin: 20px; /* Adjusted margin */
+}
+
+.logo img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-right: 10px; /* Space between logo and text */
+}
+
+.logo span {
+  font-weight: bold;
+  font-size: 19px;
+  text-transform: uppercase;
+}
+
+a {
+  color: rgb(85, 83, 83);
+  font-size: 15px;
+  display: flex; /* Use flex to align icon and text */
+  align-items: center; /* Center vertically */
+  width: 100%; /* Full width */
+  padding: 10px;
+  margin: 5px 0; /* Vertical margin for spacing */
+  text-decoration: none; /* Remove underline */
+}
+
+.nav .fas {
+  width: 40px; /* Reduced width */
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.nav-item {
+  margin-left: 0; /* Remove left margin for consistent alignment */
+}
+
+a:hover {
+  background: #c5c5c5; /* Light gray on hover */
+}
+
+.logout {
+  position: absolute;
+  bottom: 20px; /* Spacing from bottom */
+  left: 0; /* Align to the left */
+}
+
